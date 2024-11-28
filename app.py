@@ -23,6 +23,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-# config = dict(os.environ.items())
-# conn = f'postgresql://{config["DB_USER"]}:{config["DB_PASS"]}@{config["DB_HOST"]}:{config["DB_PORT"]}/{config["DB_NAME"]}'
-# print(conn)
