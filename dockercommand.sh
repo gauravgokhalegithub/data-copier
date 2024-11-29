@@ -1,0 +1,1 @@
+docker run -it --name data-copier-c --rm --network data-copier-nw -v C:/Users/gaura/Research/data/retail_db_json:/retail_db_json -e BASE_DIR=/retail_db_json -e DB_HOST=df3e2999b226 -e DB_PORT=5432 -e DB_NAME=retail_db -e DB_USER=retail_user -e DB_PASS=retail_user data-copier python /data-copier/app/app.py departments,categories
